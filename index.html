@@ -12,61 +12,127 @@
 margin:0;
 padding:0;
 box-sizing:border-box;
+font-family:Arial,Helvetica,sans-serif;
 }
 
 body{
-background:#0f0f0f;
-font-family:Arial, Helvetica, sans-serif;
-display:flex;
-justify-content:center;
-align-items:center;
+
+background:
+radial-gradient(circle at top,#1d3b7d 0%,#101010 45%,#050505 100%);
+
 height:100vh;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
 color:white;
+
 }
 
-.container{
+.card{
+
+width:92%;
+max-width:420px;
+
+background:rgba(20,20,20,.75);
+
+backdrop-filter:blur(12px);
+
+padding:40px;
+
+border-radius:25px;
+
 text-align:center;
-width:90%;
-max-width:500px;
+
+box-shadow:0 0 40px rgba(0,0,0,.5);
+
+border:1px solid rgba(255,255,255,.08);
+
 }
 
 .logo{
-width:180px;
-margin-bottom:30px;
+
+width:220px;
+
+margin-bottom:25px;
+
 }
 
 h1{
-font-size:34px;
-margin-bottom:15px;
+
+font-size:32px;
+
+margin-bottom:10px;
+
 }
 
-p{
+.sub{
+
+color:#bbbbbb;
+
 font-size:18px;
-color:#cccccc;
-margin-bottom:40px;
+
 line-height:28px;
+
+margin-bottom:30px;
+
+}
+
+.lista{
+
+text-align:left;
+
+margin:25px 0;
+
+font-size:17px;
+
+line-height:35px;
+
 }
 
 .botao{
-display:inline-block;
+
+display:block;
+
 background:#25D366;
+
 color:white;
+
 text-decoration:none;
-padding:22px 45px;
+
+padding:22px;
+
+border-radius:15px;
+
 font-size:24px;
+
 font-weight:bold;
-border-radius:12px;
+
 transition:.3s;
+
+margin-top:20px;
+
 }
 
 .botao:hover{
+
 transform:scale(1.05);
+
+box-shadow:0 0 30px #25D366;
+
 }
 
-.rodape{
-margin-top:40px;
+.footer{
+
+margin-top:30px;
+
 font-size:14px;
-color:#888;
+
+color:#999;
+
 }
 
 </style>
@@ -75,26 +141,40 @@ color:#888;
 
 <body>
 
-<div class="container">
+<div class="card">
 
-<h1>BELLA CARDS</h1>
+<img src="logo.png" class="logo">
 
-<p>
-Entre para nosso grupo VIP e receba primeiro
-os leilões, promoções e avisos das lives.
+<h1>Grupo VIP Bella Cards</h1>
+
+<p class="sub">
+
+Entre na comunidade e receba primeiro os leilões, promoções e avisos das lives.
+
 </p>
 
+<div class="lista">
+
+✅ Leilões exclusivos<br>
+✅ Promoções antecipadas<br>
+✅ Sorteios para membros<br>
+✅ Avisos das Lives
+
+</div>
+
 <a class="botao"
+
 href="https://chat.whatsapp.com/HC4qDTuvgi2J3yPta98SQo"
+
 target="_blank">
 
-🟢 Entrar no Grupo VIP
+🟢 ENTRAR NO GRUPO VIP
 
 </a>
 
-<div class="rodape">
+<div class="footer">
 
-Pokémon • Leilões • Comunidade
+Mais de 100 colecionadores fazem parte da comunidade.
 
 </div>
 
